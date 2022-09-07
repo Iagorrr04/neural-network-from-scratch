@@ -6,9 +6,21 @@ This neural network consists of a simple recognition of decimal digits, in order
 
 To achieve this goal the the famous [MNIST digt recognizer dataset](https://www.kaggle.com/competitions/digit-recognizer) was used in this project.
 
+
+
+
+## Todo
+
+ - [ ] Add integration with Google Colab
+ - [ ] Add details about the concepts.
+
+
+
 <details><summary> <b>References and useful links </b> </summary>
 
 [Building a neural network FROM SCRATCH (no Tensorflow/Pytorch, just numpy & math)](https://www.youtube.com/watch?v=w8yWXqWQYmU)
 
 
 </details>
+
+
