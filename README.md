@@ -17,7 +17,9 @@ Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pix
 The training data set, (train.csv), has 785 columns. The first column, called "label", is the digit that was drawn by the user. The rest of the columns contain the pixel-values of the associated image.
 
 <div align="center">
-<img src="https://github.com/Iagorrr04/neural-network-from-scratch/tree/main/images/dataset_example.png">
+
+<img src="https://raw.githubusercontent.com/Iagorrr04/neural-network-from-scratch/main/images/dataset_example.png">
+
 </div>
 
 ## Todo
