@@ -22,6 +22,26 @@ The training data set, (train.csv), has 785 columns. The first column, called "l
 
 </div>
 
+## Architecture
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Iagorrr04/neural-network-from-scratch/main/images/architecture.png"> <img src="https://raw.githubusercontent.com/Iagorrr04/neural-network-from-scratch/main/images/layers.png">
+
+</div>
+
+The left most layer is called *input layer*, and each of the 784 positions contains the information about one pixel.
+
+The middle layer is called *first hidden layer*.
+
+In this case is the neural network is a *fully connected* model, because every  *output layer* is connect to every *hidden layer* before him.
+
+## Learning process
+
+This network is based in the *supervised* model, the netwok is trained with pairs of input and desired output, so it returns a output value, that is compared to the expected one, after that the *weights* and *bias* are ajusted in a way that minimize the difference between the output and the expected result.
+
+The specific algorithm used to ajust the *weights* and *bias* is called *delta rule*, initially the values of the network are random values, and by each interation they are ajusted until reach a satisfactory value. It's important to don't reach a *over-traning*, state where the network specializes in the given data and just decorate the output, losing the capacity of generalization. So the ideal is that the network tranning stop when the error rate is admissible and the generalization capcity too.
+
 ## Todo
 
  - [ ] Add integration with Google Colab
