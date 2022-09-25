@@ -26,7 +26,7 @@ The training data set, (train.csv), has 785 columns. The first column, called "l
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Iagorrr04/neural-network-from-scratch/main/images/architecture.png"> <img src="https://raw.githubusercontent.com/Iagorrr04/neural-network-from-scratch/main/images/layers.png">
+<img width="35%" src="https://raw.githubusercontent.com/Iagorrr04/neural-network-from-scratch/dev/content/images/architecture.png"> <img width="35.5%" src="https://raw.githubusercontent.com/Iagorrr04/neural-network-from-scratch/dev/content/images/layers.png">
 
 </div>
 
